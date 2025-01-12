@@ -1,0 +1,564 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.3f1 (1cedbfe38737) revision 1895871'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ru' Physical Memory: 32693 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\2022.1.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+E:/Games/arr3
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54560
+Successfully changed project path to: E:/Games/arr3
+E:/Games/arr3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 110.14 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.3f1 (1cedbfe38737)
+[Subsystems] Discovering subsystems at path E:/2022.1.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Games/arr3/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 Ti (ID=0x2208)
+    Vendor:   NVIDIA
+    VRAM:     12086 MB
+    Driver:   32.0.15.6614
+Initialize mono
+Mono path[0] = 'E:/2022.1.3f1/Editor/Data/Managed'
+Mono path[1] = 'E:/2022.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/2022.1.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/2022.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001352 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 86.24 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.535 seconds
+Domain Reload Profiling:
+	ReloadAssembly (535ms)
+		BeginReloadAssembly (73ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (380ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (99ms)
+				TypeCache.Initialize (98ms)
+					TypeCache.ScanAssembly (97ms)
+				ResolveRequiredComponents (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (220ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (86ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005536 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Games\arr3\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Games\arr3\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 85.66 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  1.039 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1040ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (880ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (213ms)
+				TypeCache.Initialize (204ms)
+					TypeCache.ScanAssembly (199ms)
+				ResolveRequiredComponents (9ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (510ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (86ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (271ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.13 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5899 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (349.8 KB). Loaded Objects now: 6337.
+Memory consumption went from 0.92 GB to 0.92 GB.
+Total: 4.070800 ms (FindLiveObjects: 0.428000 ms CreateObjectMapping: 0.414400 ms MarkObjects: 3.076600 ms  DeleteObjects: 0.151100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 882856.878234 seconds.
+  path: Assets/LowPolyRPGWeapons_Lite/Models/Ax_01.fbx
+  artifactKey: Guid(6675c6557a13efc4aacb9db75446046f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyRPGWeapons_Lite/Models/Ax_01.fbx using Guid(6675c6557a13efc4aacb9db75446046f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5696d2d9a4be86333ffb66396a149e8c') in 0.221731 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006232 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Games\arr3\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Games\arr3\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  0.854 seconds
+Domain Reload Profiling:
+	ReloadAssembly (855ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (689ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (185ms)
+				TypeCache.Initialize (177ms)
+					TypeCache.ScanAssembly (172ms)
+				ResolveRequiredComponents (9ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (348ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.60 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5759 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (310.8 KB). Loaded Objects now: 6398.
+Memory consumption went from 0.91 GB to 0.91 GB.
+Total: 3.670000 ms (FindLiveObjects: 0.349000 ms CreateObjectMapping: 0.273300 ms MarkObjects: 2.971500 ms  DeleteObjects: 0.075200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005527 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Games\arr3\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Games\arr3\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  0.831 seconds
+Domain Reload Profiling:
+	ReloadAssembly (832ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (673ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (186ms)
+				TypeCache.Initialize (177ms)
+					TypeCache.ScanAssembly (172ms)
+				ResolveRequiredComponents (8ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (338ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (213ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.67 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5759 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (310.8 KB). Loaded Objects now: 6403.
+Memory consumption went from 0.91 GB to 0.91 GB.
+Total: 3.575600 ms (FindLiveObjects: 0.356200 ms CreateObjectMapping: 0.315200 ms MarkObjects: 2.833900 ms  DeleteObjects: 0.069700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005423 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Games\arr3\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\Games\arr3\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  0.845 seconds
+Domain Reload Profiling:
+	ReloadAssembly (846ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (685ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (178ms)
+				TypeCache.Initialize (170ms)
+					TypeCache.ScanAssembly (166ms)
+				ResolveRequiredComponents (8ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (357ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.15 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5759 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 47 unused Assets / (310.9 KB). Loaded Objects now: 6408.
+Memory consumption went from 0.91 GB to 0.91 GB.
+Total: 4.019300 ms (FindLiveObjects: 0.412300 ms CreateObjectMapping: 0.362900 ms MarkObjects: 3.148200 ms  DeleteObjects: 0.094900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2515.989963 seconds.
+  path: Assets/_Materials/Ground/Pillar.mat
+  artifactKey: Guid(5e97aaa7cb7649248b73a3adf98383ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Materials/Ground/Pillar.mat using Guid(5e97aaa7cb7649248b73a3adf98383ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b34df176572be720a0de58d511e0484') in 0.267013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/shrubs/littleLeavesShrub/editableMaterials/shrubMaterial.mat
+  artifactKey: Guid(c25517ee5a76f09549ca2824ff138bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/shrubs/littleLeavesShrub/editableMaterials/shrubMaterial.mat using Guid(c25517ee5a76f09549ca2824ff138bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff003122d5f99e934e1f61e606d2ae4') in 0.076628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Samples/OpenXR Plugin/1.4.2/Controller/Materials/Red.mat
+  artifactKey: Guid(130cd327cb69f5c4ab2bcdb608fbd58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/OpenXR Plugin/1.4.2/Controller/Materials/Red.mat using Guid(130cd327cb69f5c4ab2bcdb608fbd58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea10660c4db896fd830b484d9654cdc') in 0.016545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.059506 seconds.
+  path: Assets/_Materials/Ground/SidesSpecular.mat
+  artifactKey: Guid(f72bf6c1f1cf29c44a4576939d8f27d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Materials/Ground/SidesSpecular.mat using Guid(f72bf6c1f1cf29c44a4576939d8f27d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d7254c9f8c23570b19d27f8003bcb5') in 0.025048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Materials/Trail.mat
+  artifactKey: Guid(38406fb0b06d80147b03aa1e1302f7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Materials/Trail.mat using Guid(38406fb0b06d80147b03aa1e1302f7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f670de002c2188c49e1928cabeb90d3') in 0.304110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Shaders/SkyBox Shader/Skybox Gradient.mat
+  artifactKey: Guid(fd81cbf35e8d69f46966c121ca10ae7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Shaders/SkyBox Shader/Skybox Gradient.mat using Guid(fd81cbf35e8d69f46966c121ca10ae7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74171c0915040cb6ea235d79756aa16') in 0.022134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_Content/Quaternious/Blends/Materials/Steel.mat
+  artifactKey: Guid(fefaa0be131c4b242a4638698962f9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Content/Quaternious/Blends/Materials/Steel.mat using Guid(fefaa0be131c4b242a4638698962f9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb598ea5d329cfacef8b41fb81b8691c') in 0.025285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.731807 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/trees/simpleTree/editableMaterials/treeMaterial.mat
+  artifactKey: Guid(787bea74b57e4adf9bfb0835d1cf9610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/trees/simpleTree/editableMaterials/treeMaterial.mat using Guid(787bea74b57e4adf9bfb0835d1cf9610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d60ecdb4646498a1b5156f19e1c9a9c') in 0.015027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryBigLeavesTree/editableMAterial/TreeMaterial.mat
+  artifactKey: Guid(700550ff96aeb4b95b27ff24e7a9e5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryBigLeavesTree/editableMAterial/TreeMaterial.mat using Guid(700550ff96aeb4b95b27ff24e7a9e5a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bcc3faba5a5c0a1b7ae07686052c59d') in 0.026511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/trees/tree/editableMaterial/treeMaterial.mat
+  artifactKey: Guid(d75bd6a5a32a51369ad7be6de5d0d050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/trees/tree/editableMaterial/treeMaterial.mat using Guid(d75bd6a5a32a51369ad7be6de5d0d050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589f3b5b953546cf6687078bd1adba58') in 0.021230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.063341 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/trees/purpleTree/editableMaterials/TreeMaterial.mat
+  artifactKey: Guid(2758adbd444112e50b61e512c46c0fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/trees/purpleTree/editableMaterials/TreeMaterial.mat using Guid(2758adbd444112e50b61e512c46c0fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3313c926061ce56d43f52b7d1c9ecabf') in 0.014237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryTree/dryTree.fbx
+  artifactKey: Guid(a447a4862bfecf9b48155669d7db9f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryTree/dryTree.fbx using Guid(a447a4862bfecf9b48155669d7db9f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6219b1a2997a0043be06129afbf6d54a') in 0.049611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/trees/fallenBranchesTree/editableMaterial/treeMaterial.mat
+  artifactKey: Guid(d419757e99341f882906d71e95a69d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/trees/fallenBranchesTree/editableMaterial/treeMaterial.mat using Guid(d419757e99341f882906d71e95a69d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1fe2dd425a6386570edafe9cade1cb') in 0.029844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/trees/bigLeavesTree/editableMaterials/TreeMaterial.mat
+  artifactKey: Guid(a8b7017bfcb262a319b78b3ad74b10b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/trees/bigLeavesTree/editableMaterials/TreeMaterial.mat using Guid(a8b7017bfcb262a319b78b3ad74b10b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928e712101c1e34a73da2e7f512ff2af') in 0.030668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryBigLeavesTree/bigLeavesTree.fbx
+  artifactKey: Guid(b79ea7d30c3eb9ee7b39cd55a82c6229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryBigLeavesTree/bigLeavesTree.fbx using Guid(b79ea7d30c3eb9ee7b39cd55a82c6229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbb808dd4f89b278725b548504b89235') in 0.054949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.051792 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/deadTrees/drySimpleTree/editableMaterial/treeMaterial.mat
+  artifactKey: Guid(bf39d45ea2c7eaa25b40eb2e2543c16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/deadTrees/drySimpleTree/editableMaterial/treeMaterial.mat using Guid(bf39d45ea2c7eaa25b40eb2e2543c16d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f63ae98ddff103e9508e28884944c5a') in 0.018145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/deadTrees/drySimpleTree/drySimpleTree.fbx
+  artifactKey: Guid(96446aea739513405b3032ea09a7f075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/deadTrees/drySimpleTree/drySimpleTree.fbx using Guid(96446aea739513405b3032ea09a7f075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe164493054071a8a85989935142f8a') in 0.026170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryTree/editableMaterial/treeMaterial.mat
+  artifactKey: Guid(3b85fffb0d3a7c7ccac4930232997dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryTree/editableMaterial/treeMaterial.mat using Guid(3b85fffb0d3a7c7ccac4930232997dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c199e280fbc35326244ceaed64ee4c') in 0.015273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryPurpleTree/editableMaterial/TreeMaterial.mat
+  artifactKey: Guid(2428aed87f019d05ebc4d3231d92cb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryPurpleTree/editableMaterial/TreeMaterial.mat using Guid(2428aed87f019d05ebc4d3231d92cb02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5a301fc3172bef25b429da0a397b1f') in 0.015296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryFallenBranchesTree/editableMAtrial/treeMaterial.mat
+  artifactKey: Guid(84c86fe681f2395bf9edff18bcbab18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryFallenBranchesTree/editableMAtrial/treeMaterial.mat using Guid(84c86fe681f2395bf9edff18bcbab18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7682b6fdc0cb9bfb77a170db910d97ad') in 0.019137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryFallenBranchesTree/dryFallenBranchesTree.fbx
+  artifactKey: Guid(049f54454f82d8835906f0cb01d2a8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryFallenBranchesTree/dryFallenBranchesTree.fbx using Guid(049f54454f82d8835906f0cb01d2a8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0015febf78b8b43f73ec2e3bd4414427') in 0.029873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryPurpleTree/dryPurpleTree.fbx
+  artifactKey: Guid(00c001c81e8fa802e90ffe6b2b99a8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/deadTrees/dryPurpleTree/dryPurpleTree.fbx using Guid(00c001c81e8fa802e90ffe6b2b99a8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61a5943d35d6a7289b2242b12f8de46') in 0.026246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.525834 seconds.
+  path: Assets/_Materials/Ground/WhitePillar.mat
+  artifactKey: Guid(e5b7ee9b1dfcb0446a0b8324e9dab497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Materials/Ground/WhitePillar.mat using Guid(e5b7ee9b1dfcb0446a0b8324e9dab497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1478ff26d94f9a88e739ff28c9b00d22') in 0.016289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.494374 seconds.
+  path: Assets/Samples/OpenXR Plugin/1.4.2/Controller/Materials/Blue.mat
+  artifactKey: Guid(d3293c07c46938149bd6b68f6f5ab4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/OpenXR Plugin/1.4.2/Controller/Materials/Blue.mat using Guid(d3293c07c46938149bd6b68f6f5ab4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f15ecf0872a24ff3d7be8e0563d660') in 0.019481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.474323 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/trees/purpleTree/editableMaterials/leavesMaterial.mat
+  artifactKey: Guid(324b7782d067e21edbca6af4a0e0dec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/trees/purpleTree/editableMaterials/leavesMaterial.mat using Guid(324b7782d067e21edbca6af4a0e0dec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e7470a4d9ca9035dae5c55304ff4dd') in 0.031986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/trees/bigLeavesTree/editableMaterials/leavesMaterial.mat
+  artifactKey: Guid(66437b4c7b3af3279bbb8e06d605beed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/trees/bigLeavesTree/editableMaterials/leavesMaterial.mat using Guid(66437b4c7b3af3279bbb8e06d605beed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0451c85ebb3c77d296be4ef487accfdc') in 0.015534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/shrubs/shrub/editableMaterials/leavesMaterial.mat
+  artifactKey: Guid(1a477a76ef1af2f4eaf8f83087aab051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/shrubs/shrub/editableMaterials/leavesMaterial.mat using Guid(1a477a76ef1af2f4eaf8f83087aab051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43261a9b47d9b54ba840be502500cb3d') in 0.021467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008103 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/trees/tree/editableMaterial/leavesMaterial.mat
+  artifactKey: Guid(4c49aba04159a6ecd8d206938ba20811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/trees/tree/editableMaterial/leavesMaterial.mat using Guid(4c49aba04159a6ecd8d206938ba20811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55f7c31577a06e4f92b3425c41524d0') in 0.012782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Content/Quaternious/Blends/Materials/LightWood.mat
+  artifactKey: Guid(96217803444a92240a3df374a035e5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Content/Quaternious/Blends/Materials/LightWood.mat using Guid(96217803444a92240a3df374a035e5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75220d66c9d619d5ceacaa247a9fcd58') in 0.030741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008907 seconds.
+  path: Assets/LowPolyRPGWeapons_Lite/Materials/LowPolyRPGWeaponLite_BG.mat
+  artifactKey: Guid(3aa8c55f91287f04ba6aff861716f358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowPolyRPGWeapons_Lite/Materials/LowPolyRPGWeaponLite_BG.mat using Guid(3aa8c55f91287f04ba6aff861716f358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e74238d066743aa28fa36d216985ac71') in 0.015089 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

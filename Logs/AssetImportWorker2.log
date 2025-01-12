@@ -1,0 +1,484 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.46f1 (8e9b8558c41a) revision 9345925'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16225 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2022.3.46f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+E:/arr3/arr3
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50139
+Successfully changed project path to: E:/arr3/arr3
+E:/arr3/arr3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24412]  Target information:
+
+Player connection [24412]  * "[IP] 192.168.1.162 [Port] 0 [Flags] 2 [Guid] 3080203993 [EditorId] 3080203993 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AO8CJ5N) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [24412]  * "[IP] 26.18.132.174 [Port] 0 [Flags] 2 [Guid] 3080203993 [EditorId] 3080203993 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AO8CJ5N) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [24412] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [24412] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Refreshing native plugins compatible for Editor in 28.66 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.46f1 (8e9b8558c41a)
+[Subsystems] Discovering subsystems at path D:/Unity/2022.3.46f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/arr3/arr3/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6636
+Initialize mono
+Mono path[0] = 'D:/Unity/2022.3.46f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2022.3.46f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2022.3.46f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2022.3.46f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/2022.3.46f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Unity/2022.3.46f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007019 seconds.
+- Loaded All Assemblies, in  0.505 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 425 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.834 seconds
+Domain Reload Profiling: 1338ms
+	BeginReloadAssembly (152ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (214ms)
+		LoadAssemblies (152ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (209ms)
+			TypeCache.Refresh (207ms)
+				TypeCache.ScanAssembly (188ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (834ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (770ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (528ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (168ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.008 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.100 seconds
+Domain Reload Profiling: 2107ms
+	BeginReloadAssembly (226ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (664ms)
+		LoadAssemblies (433ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (369ms)
+			TypeCache.Refresh (292ms)
+				TypeCache.ScanAssembly (259ms)
+			ScanForSourceGeneratedMonoScriptInfo (46ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (1100ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (854ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (544ms)
+			ProcessInitializeOnLoadMethodAttributes (169ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 19.95 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6187 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (345.2 KB). Loaded Objects now: 6665.
+Memory consumption went from 236.3 MB to 236.0 MB.
+Total: 9.071500 ms (FindLiveObjects: 0.998200 ms CreateObjectMapping: 0.528300 ms MarkObjects: 7.290600 ms  DeleteObjects: 0.253100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 256938.944489 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/tree/DryTrees/meshCollider/dryPurpleTree Variant.prefab
+  artifactKey: Guid(516bc9ebd685fafd38842bd3b4856a82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/DryTrees/meshCollider/dryPurpleTree Variant.prefab using Guid(516bc9ebd685fafd38842bd3b4856a82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'a438a4bd5473f5b1ff39fd42fb55c5cb') in 0.351184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/trees/purpleTree/editableMaterials/TreeMaterial.mat
+  artifactKey: Guid(2758adbd444112e50b61e512c46c0fd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/trees/purpleTree/editableMaterials/TreeMaterial.mat using Guid(2758adbd444112e50b61e512c46c0fd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'add315e1c5414abe48d1b346b89df158') in 0.054757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/deadTrees/drySimpleTree/editableMaterial/treeMaterial.mat
+  artifactKey: Guid(bf39d45ea2c7eaa25b40eb2e2543c16d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/deadTrees/drySimpleTree/editableMaterial/treeMaterial.mat using Guid(bf39d45ea2c7eaa25b40eb2e2543c16d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd5a6c07db62a97488a0b40cd2998e0eb') in 0.074861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Content/Kenney/Golf/Models/FBX format/tunnelWide.fbx
+  artifactKey: Guid(b6038be661790794492a559398994db3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Content/Kenney/Golf/Models/FBX format/tunnelWide.fbx using Guid(b6038be661790794492a559398994db3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ded6455857a93de9686f903cae51e91c') in 0.060935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_Shaders/SkyBox Shader/Skybox Gradient.shader
+  artifactKey: Guid(5dc4af029552765439015cf4177b588c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Shaders/SkyBox Shader/Skybox Gradient.shader using Guid(5dc4af029552765439015cf4177b588c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd66be1541d867761eefd6072311f91e6') in 0.030188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Samples/OpenXR Plugin/1.4.2/Controller/Scripts/ActionToSliderISX.cs
+  artifactKey: Guid(790e565304cffa1459a059a3f83619fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/OpenXR Plugin/1.4.2/Controller/Scripts/ActionToSliderISX.cs using Guid(790e565304cffa1459a059a3f83619fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '3bab153c3c47e94238bd419bc9805613') in 0.038328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/trees/tree/editableMaterial/treeMaterial.mat
+  artifactKey: Guid(d75bd6a5a32a51369ad7be6de5d0d050) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/trees/tree/editableMaterial/treeMaterial.mat using Guid(d75bd6a5a32a51369ad7be6de5d0d050) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '11bddfe2a8f506e98338063540a156a3') in 0.063796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Content/Kenney/Golf/Models/FBX format/roundLargeCorner.fbx
+  artifactKey: Guid(0a27c0c37dd8026488d0fcd0db938f4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Content/Kenney/Golf/Models/FBX format/roundLargeCorner.fbx using Guid(0a27c0c37dd8026488d0fcd0db938f4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '72c523d5444020ae515cf60b0ee04f2f') in 0.141518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Content/VR_Hands_FBX/Main.unity
+  artifactKey: Guid(3b6eb758028b5404490f04621f8ef8f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Content/VR_Hands_FBX/Main.unity using Guid(3b6eb758028b5404490f04621f8ef8f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '028c4275bbc37110aca62bd6a2bd418f') in 0.013308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Content/Kenney/Golf/Models/FBX format/wallRight.fbx
+  artifactKey: Guid(cf36248453bc4b049a7c05435b340582) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Content/Kenney/Golf/Models/FBX format/wallRight.fbx using Guid(cf36248453bc4b049a7c05435b340582) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '7f19c13984b033785269431e8ae33762') in 0.029241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Content/Kenney/Golf/Overview.html
+  artifactKey: Guid(ece9265bba604b845bdd4a2bb443b665) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Content/Kenney/Golf/Overview.html using Guid(ece9265bba604b845bdd4a2bb443b665) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '32471d0b4e1fa2a383e741107bb2386a') in 0.088558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/OpenXR Plugin/1.4.2/Controller/Scripts/AutomaticTrackingModeChanger.cs
+  artifactKey: Guid(d3724322d23523e42aad1efb9735340e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/OpenXR Plugin/1.4.2/Controller/Scripts/AutomaticTrackingModeChanger.cs using Guid(d3724322d23523e42aad1efb9735340e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '78f9d34519195f674cbf008ab5e0f16e') in 0.029096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/XRI/Settings/XRInteractionEditorSettings.asset
+  artifactKey: Guid(4cebd7c8b3622e041bf4c98084039452) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/XRI/Settings/XRInteractionEditorSettings.asset using Guid(4cebd7c8b3622e041bf4c98084039452) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd3a644fec8c4c6ab15714b64254e96ca') in 0.046456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/OpenXR Plugin/1.4.2/Controller/Scripts/ActionToButtonISX.cs
+  artifactKey: Guid(576c44685553a8b4c8ef9ed81b0d703c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/OpenXR Plugin/1.4.2/Controller/Scripts/ActionToButtonISX.cs using Guid(576c44685553a8b4c8ef9ed81b0d703c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '308e9277aa1d078e3bb73cbfc3dfa1ae') in 0.017510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/trees/trees/simpleTree/editableMaterials/leavesMaterial.mat
+  artifactKey: Guid(967a819c2e61bf0fc8defd81721d5887) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polygonTrees/polygonTrees/models/trees/trees/simpleTree/editableMaterials/leavesMaterial.mat using Guid(967a819c2e61bf0fc8defd81721d5887) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'feace47f0b92e4fafc978cbc00781e92') in 0.100321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Hand Painted Seamless Wood Texture/Textures/Wood1.tga
+  artifactKey: Guid(631f4638e5d3f984f859365bccca3d18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Hand Painted Seamless Wood Texture/Textures/Wood1.tga using Guid(631f4638e5d3f984f859365bccca3d18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8fcebdea504a0710709a1e9da383df21') in 0.124856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/tree/DryTrees/dryTree Variant.prefab
+  artifactKey: Guid(f45f80d80cecde8479d856266aa043f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/tree/DryTrees/dryTree Variant.prefab using Guid(f45f80d80cecde8479d856266aa043f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b45353cb79a95459eaa161fec942c0d9') in 0.037897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/shrubs/shrub/shrub.fbx
+  artifactKey: Guid(c79fabe36f46308ce9812c017552943f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polygonTrees/polygonTrees/models/shrubs/shrub/shrub.fbx using Guid(c79fabe36f46308ce9812c017552943f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '82906a5b5a881c50b2d1584b971d6c8b') in 0.025446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/OpenXR Plugin/1.4.2/Controller/Prefabs/ControlText.prefab
+  artifactKey: Guid(0ff2eaa1d70408346a26179d75252fc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/OpenXR Plugin/1.4.2/Controller/Prefabs/ControlText.prefab using Guid(0ff2eaa1d70408346a26179d75252fc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '300217e536e722a2bdd3bd0f5172af44') in 0.074049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Materials/New Material.mat
+  artifactKey: Guid(a09ef642633676a498408433b3f4b248) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Materials/New Material.mat using Guid(a09ef642633676a498408433b3f4b248) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'db5280e22648d7c2517c975fb83fe5d8') in 0.053874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Content/VR_Hands_FBX/Models/LICENSE.txt
+  artifactKey: Guid(b8832ee387b25a340ae7064ee258f990) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Content/VR_Hands_FBX/Models/LICENSE.txt using Guid(b8832ee387b25a340ae7064ee258f990) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ded6534d89c19359da942de40afe5a04') in 0.067476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/OpenXR Plugin/1.4.2/Controller/Scripts/ControllerSample.asmdef
+  artifactKey: Guid(bf832b71721410545bfdee57a474f71c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/OpenXR Plugin/1.4.2/Controller/Scripts/ControllerSample.asmdef using Guid(bf832b71721410545bfdee57a474f71c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '9b52b068cea912495bb0ba9b58299ecf') in 0.109373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/polygonTrees/polygonTrees/toTheDeveloper/SmallRecommendationsAndTips.pdf
+  artifactKey: Guid(608b5bd8cb3ed7c3482096b145a4f0d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polygonTrees/polygonTrees/toTheDeveloper/SmallRecommendationsAndTips.pdf using Guid(608b5bd8cb3ed7c3482096b145a4f0d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '2e97b40041663159f36d9e27a21140a5') in 0.043674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/polygonTrees/polygonTrees/prefabs/grass/littleGrass Variant.prefab
+  artifactKey: Guid(fcab16f0d26cd82dab4e96bf1ef5ecc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polygonTrees/polygonTrees/prefabs/grass/littleGrass Variant.prefab using Guid(fcab16f0d26cd82dab4e96bf1ef5ecc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '221018527878416a51b6b67137dfad2f') in 0.108817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/dryBranch/dryBranch/editableMaterial/deadTreeMaterial.mat
+  artifactKey: Guid(d4bc6858a3a2523efadf121c0fe13d91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polygonTrees/polygonTrees/models/dryBranch/dryBranch/editableMaterial/deadTreeMaterial.mat using Guid(d4bc6858a3a2523efadf121c0fe13d91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'c4ad63e89c2c7906e82c43c852413833') in 0.034220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/dryBranch/deadTree/editableMaterial/deadTreeMaterial.mat
+  artifactKey: Guid(268afda95a022f91789dfead2db8f75a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polygonTrees/polygonTrees/models/dryBranch/deadTree/editableMaterial/deadTreeMaterial.mat using Guid(268afda95a022f91789dfead2db8f75a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'a56e3bcb450813561f19f281e8ad0d2b') in 0.056441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'bdb16990d891cf661b1377219d9e1a49') in 0.017258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Content/Kenney/Golf/Models/FBX format/corner.fbx
+  artifactKey: Guid(99ae8faa67349024e8fdb8dc2105945a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Content/Kenney/Golf/Models/FBX format/corner.fbx using Guid(99ae8faa67349024e8fdb8dc2105945a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '045d94ce372070d7bfac07d745cf0a7c') in 0.038136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/polygonTrees/polygonTrees/models/dryBranch/deadTree/deadTree.fbx
+  artifactKey: Guid(b84ad9daa528734e5930406e445c30fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polygonTrees/polygonTrees/models/dryBranch/deadTree/deadTree.fbx using Guid(b84ad9daa528734e5930406e445c30fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '65fe6b7943f504cd7ccdbdcd1d766bf1') in 0.034662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/OpenXR Plugin/1.4.2/Meshing Subsystem Feature/FallingSphere.cs
+  artifactKey: Guid(ffaae9a29fa4521418bd21356c1f6347) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/OpenXR Plugin/1.4.2/Meshing Subsystem Feature/FallingSphere.cs using Guid(ffaae9a29fa4521418bd21356c1f6347) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '712dcb2a33a44c9aca54f55ae51afcf1') in 0.017980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Scripts/ArrowController.cs
+  artifactKey: Guid(6e0f5f0f952ad794d8390e47f4a70145) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_Scripts/ArrowController.cs using Guid(6e0f5f0f952ad794d8390e47f4a70145) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '43d88fa4dde2c69baa489161f14c9f09') in 0.013383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
